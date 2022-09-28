@@ -1,0 +1,95 @@
+.main-container{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inner-container{
+    background-color: beige;
+    /* border: solid; */
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.heading{
+    background-color: brown;
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.input-Field{
+    
+    padding-left: 30px;
+    height: 10%;
+}
+.inputArea{
+    
+    /* padding: 10px 10px; */
+    width: 70%;
+    height: 90%;
+    border-radius: 3px;
+    border: solid rgb(210, 210, 210);
+    box-shadow: 1px 1px 5px grey;
+    text-align: center;
+    font-size: 20px;
+}
+
+.addButton{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: rgb(179, 255, 230);
+    box-shadow: 1px 1px 5px grey;
+    background-color: rgba(51, 182, 51, 0.737);;
+    margin-left: 10px;
+}
+
+.addButton:hover{
+    background-color: rgb(11, 111, 11);
+}
+
+.listItems{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item{
+    display: flex;
+    /* border: solid; */
+    height: 30px;
+    margin-bottom: 5px;
+    align-items: center;
+    color: rgb(66, 0, 0);
+    font-size: large;
+}
+
+.item > button{
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 25px;
+    border: solid grey;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(38, 38, 38);
+}
+
+.item > button:hover{
+    background-color: red;
+}
